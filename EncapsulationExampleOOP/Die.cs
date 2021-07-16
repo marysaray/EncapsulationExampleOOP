@@ -11,5 +11,13 @@ namespace EncapsulationExampleOOP
     /// </summary>
     class Die
     {
+        /// <summary>
+        /// The outcome value of the die.
+        /// </summary>
+        public byte Value { get; private set; } // cannot be set; only retrieved. 
+
+        public bool isHeld { get; set; }
+
+        // Roll method
     }
 }
